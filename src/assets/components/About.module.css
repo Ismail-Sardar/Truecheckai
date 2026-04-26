@@ -1,0 +1,15 @@
+.about {
+  height: 505px;
+  padding: 60px 20px;
+  color: white;
+  background: black;
+  
+  text-align: center;
+}
+
+.about p {
+  max-width: 800px;
+  margin: auto;
+  line-height: 1.7;
+  font-size: 1.2rem;
+}

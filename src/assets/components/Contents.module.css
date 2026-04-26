@@ -1,0 +1,167 @@
+
+.Contents{
+    background-color: black;
+    height: 650px;
+    display: flex;
+}
+.punch{
+    /*background-color: chartreuse;*/
+    height: 600px;
+    width: 755px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0px;
+    margin-top: 10px;
+    position: relative;
+}
+.upload{
+  /*background-color: aqua;*/
+  height: 100px;
+  width: 550px;
+  margin-left: 200px;
+  margin-bottom: 0px;
+  position: absolute; 
+  bottom: 80px;
+  right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+/*.btn1 {
+  height: 50px;
+  width: 120px;
+  color: white;
+  background-color: transparent;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: 2px solid cyan;
+  box-shadow: 0 0 8px cyan;
+}*/
+
+.btn1:hover {
+  box-shadow: 0 0 20px cyan, 0 0 30px cyan;
+  transform: scale(1.05);
+}
+.btn1 {
+  height: 60px;
+  width: 130px;
+  font-size: 15px;
+  
+  background-color: black;
+  border: 2px solid cyan;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  transition: 0.3s ease;
+  box-shadow: 0 0 15px cyan;
+}
+
+
+.btn1 input[type="file"] {
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  width: 50%;
+  height: 50%;
+  cursor: pointer;
+}
+
+.btn2 {
+  height: 60px;
+  width: 130px;
+  color: white;
+  background-color: transparent;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: 2px solid #ff00ff;
+  box-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff;
+}
+.btn2:hover {
+  box-shadow: 0 0 10px #ff33ff, 0 0 30px #ff33ff;
+  transform: scale(1.05);
+}
+
+.title{
+  margin-left: 20px; 
+  margin-bottom: 0px;  
+  font-size: 80px; 
+  color: white;
+} 
+.tagline {
+  color: white;
+  font-size: 30px;
+  margin-left: 50px;
+  padding-top: 0px;
+  animation: typing 8s steps(36, end) infinite,
+  blink-caret 0.7s step-end infinite ; 
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid white;
+  width: 36ch;  
+}
+@keyframes typing {
+  0% { width: 0 }
+  50% { width: 40ch }
+  100% { width: 0 }
+}
+
+@keyframes blink-caret {
+  0%, 100% { border-color: transparent }
+  50% { border-color: white }
+}
+.slide{
+  /*background-color: blue;*/
+  height: 600px;
+  width: 785px;
+  margin-right: 0px;
+  padding-right: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  /*height: 400px;
+  width: 400px;*/
+}
+.carol{
+    /*background-color: aqua;*/
+    margin-top: 150px;
+    height: 380px;
+    width: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    filter: blur(0.5px);
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+    
+   
+}
+
+input{
+  overflow: hidden;
+  display: none;
+}
+
+.creditsInfo {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #666;
+  text-align: center;
+}

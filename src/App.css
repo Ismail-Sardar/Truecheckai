@@ -1,0 +1,7 @@
+body{
+  background-color: black;
+  background-image: url(bg2.jpg);
+}
+html {
+  scroll-behavior: smooth;
+}

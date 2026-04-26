@@ -1,0 +1,103 @@
+.login {
+   background-color: black;
+  height: 703px;
+  padding: 50px 20px;
+  color: white;
+   display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1{
+    padding-top: 100px;
+    margin-top: 200px;
+    color: white;
+}
+.form{
+    margin: 60px;
+    height: 450px;
+    width: 480px;
+     background-color: rgba(255, 255, 255, 0.05);
+    border: 1.5px solid rgba(0, 255, 255, 0.4);
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.2);
+    border-radius: 20px;
+    backdrop-filter: blur(1000px);
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+input{
+   
+     display: flex;
+  align-items: center;
+  flex-direction: row;
+  color: white;
+    margin: 10px;
+    height: 35px;
+    width: 200px;
+    outline: none;
+    background: transparent;
+    border: none;
+   
+
+}
+label {
+  text-align: left;
+  font-weight: bold;
+   margin: 10px;
+    font-size: 25px;
+    color: white;
+}
+
+
+
+button {
+    margin-left: 50px;
+    height: 50px;
+    width: 90px;
+    color: white;
+    outline: none;
+    border: none;
+    background: transparent;
+     
+}
+
+input:hover{
+    border: 1.5px solid rgba(0, 255, 255, 0.4);
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.2);
+    border-radius: 10px;
+    
+}
+
+button:hover{
+   border: 1.5px solid rgba(0, 255, 255, 0.4);
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.2);
+    border-radius: 10px;
+}
+
+.loginLink {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 14px;
+}
+
+.loginLink a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.loginLink a:hover {
+  text-decoration: underline;
+}
+.container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+

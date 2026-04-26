@@ -1,0 +1,67 @@
+body{
+    background-color: black;
+  
+}
+.containerpy5{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.cardbody{
+    margin: 60px;
+    height: 500px;
+    width: 500px;
+    background-color: rgba(255, 255, 255, 0.05);
+  
+    border: 1.5px solid rgba(0, 255, 255, 0.4);
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.2);
+    border-radius: 20px;
+    backdrop-filter: blur(1000px);
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bill{
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 25px;
+  
+}
+.text{
+    color: cyan;
+   
+}
+.listgroup{
+    background-color: transparent;
+}
+
+.btn1{
+    height: 50px;
+    width: 90px;
+    color: cyan;
+    font-size: 30px;
+    outline: none;
+    border: none;
+    background: transparent;
+}
+
+.btn1:hover{
+   border: 1.5px solid rgba(0, 255, 255, 0.4);
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.2);
+    border-radius: 10px;
+}
+
+.textsuccess{
+    color: cyan;
+}
+
+.raz{
+    color: white;
+}

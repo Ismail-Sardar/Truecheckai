@@ -1,0 +1,61 @@
+.price {
+  background-color: black;
+  height: 703px;
+  padding: 50px 20px;
+  color: white;
+  text-align: center;
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.heading {
+  font-size: 30px;
+  margin-bottom: 40px;
+  color: cyan;
+  margin: 25px;
+ 
+}
+
+.cards{
+    /*background-color: aqua;*/
+    height: 520px;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.card{
+    /*background-color: blue;*/
+    height: 500px;
+    width: 500px;
+    font-size: 30px;
+    border: 2px solid cyan;
+    box-shadow: 0 0 5px cyan, 0 0 10px cyan;
+    border-radius: 25px;
+   padding-top: 0px;
+   
+}
+
+.login{
+  
+  height: 40px;
+  width: 120px;
+  color: white;
+  background-color: transparent;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: 2px solid white;
+  box-shadow: 0 0 10px white, 0 0 20px white;
+}
+.login:hover {
+  box-shadow: 0 0 10px white, 0 0 30px white;
+  transform: scale(1.05);
+}

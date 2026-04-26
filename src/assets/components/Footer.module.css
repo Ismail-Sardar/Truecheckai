@@ -1,0 +1,20 @@
+.footer {
+  background: black;
+  padding: 30px;
+  text-align: center;
+  color: #aaa;
+  height: 150px;
+}
+
+.footer .links {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footer a {
+  color: cyan;
+  text-decoration: none;
+  font-weight: 500;
+}
